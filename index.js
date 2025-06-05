@@ -4,7 +4,7 @@ const app = express();//referencio o express como app
 
 app.use(express.json());// define o padrao de troca de informacoes
 
-app.use(cors({credentials : true, origin : 'htpp://localhost:3000'}));// permito chamadas vindas dessa rota
+app.use(cors({credentials : true, origin : 'http://localhost:4200'}));// permito chamadas vindas dessa rota padrao do agular
 
 app.use(express.static('public'));
 

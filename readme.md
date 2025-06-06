@@ -1,6 +1,6 @@
-# 🐶 Pet Adoption API
+# 🐶 Pet Adoption Aplication
 
-Esta é uma API RESTful desenvolvida em **Node.js** com **Express** e **MongoDB**, destinada ao gerenciamento de adoção de pets.
+Esta é uma Aplicacao Full stack desenvolvida em **Node.js** com **Express** e **MongoDB** **Angular**, destinada ao gerenciamento de adoção de pets.
 
 ---
 

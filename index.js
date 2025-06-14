@@ -1,12 +1,13 @@
 const express = require('express');//importa o express
 const cors = require('cors');//importa o cros
 const app = express();//referencio o express como app
+const path = require('path'); // Importa Path, módulo nativo do Node.js para manipulação de caminhos
 
 app.use(express.json());// define o padrao de troca de informacoes
 
 app.use(cors({credentials : true, origin : 'http://localhost:4200'}));// permito chamadas vindas dessa rota padrao do agular
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 // Rotas

@@ -242,7 +242,7 @@ module.exports = class PetsController {
     }
     //Agendar avaliacao de adotante
     static async schedule(req, res) {
-        console.log(req.originalUrl);
+
         try {
             //Recebo as informacoes vindas pela requisicao
             const id = req.params.id;
